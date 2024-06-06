@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "prisma": "^5.12.1",
+    "@prisma/client": "^5.15.0",
+    "install": "^0.13.0",
+    "postgresql": "^0.0.1",
+    "prisma": "^5.15.0",
     "typescript": "^5.4.5"
   }
 }
