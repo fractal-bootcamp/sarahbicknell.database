@@ -19,10 +19,10 @@ model Book {
   ISBN Int 
 
   genres Genre[]
-  member Member @relation(fields: [memberId], references: [id])
-  memberId Int 
-  author Author @relation(fields: [authorId], references: [id])
-  authorId Int  
+  member Member ? @relation(fields: [memberId], references: [id]) 
+  memberId Int ?
+  author Author ? @relation(fields: [authorId], references: [id]) 
+  authorId Int ?
 }
 
 model Author {
